@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="lvl1text1">Yes</string>
-    <string name="lvl1text2">No</string>
+    <string name="lvl1text0">long - длинный</string>
+    <string name="lvl1text1">short - важный</string>
+    <string name="lvl1text2">small - маленький</string>
+    <string name="lvl1text3">width - ширина</string>
+    <string name="lvl1text4">lemon - апельсин</string>
+    <string name="lvl1text5">book - тетрадь</string>
+    <string name="lvl1text6">notebook - ноутбук</string>
+    <string name="lvl1text7">sometimes - иногда</string>
+    <string name="lvl1text8">magazine - магазин</string>
+    <string name="lvl1text9">move - двигаться</string>
+    <string name="lvl1text10">sleep - спать</string>
+    <string name="lvl1text11">blueberry - клубника</string>
+    <string name="lvl1text12">run - прыгать</string>
+    <string name="lvl1text13">old - старый</string>
+    <string name="lvl1text14">believe - любить</string>
+    <string name="lvl1text15">year - год</string>
+    <string name="lvl1text16">write - писать</string>
+    <string name="lvl1text17">letter - алфавит</string>
+    <string name="lvl1text18">paper - перец</string>
+    <string name="lvl1text19">new - новый</string>
+
+
+    <string name="lvl2text0">eagle</string>
+    <string name="lvl2text1">fox</string>
+    <string name="lvl2text2">giraffe</string>
+    <string name="lvl2text3">jellyfish</string>
+    <string name="lvl2text4">zebra</string>
+    <string name="lvl2text5">kangaroo</string>
+    <string name="lvl2text6">horse</string>
+    <string name="lvl2text7">tiger</string>
+    <string name="lvl2text8">cat</string>
+    <string name="lvl2text9">deer</string>
+
 </resources>

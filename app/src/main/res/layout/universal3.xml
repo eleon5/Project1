@@ -52,7 +52,7 @@
                     android:layout_weight="1"
                     android:gravity="right"
                     android:padding="10dp"
-                    android:text="@string/level1"
+                    android:text="@string/level3"
                     android:textColor="@color/white"
                     android:textSize="24sp" />
             </LinearLayout>
@@ -212,32 +212,31 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
-                android:layout_marginTop="10dp">
+                android:layout_marginTop="5dp">
+
 
                 <TextView
-                    android:id="@+id/text1_level1"
+                    android:id="@+id/text1_level3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
                     android:layout_marginTop="20dp"
                     android:gravity="center"
-                    android:text="check the translation"
+                    android:text="check the spelling"
                     android:textColor="@color/white"
                     android:textSize="30sp" />
-
-
             </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/line4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="5dp"
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/text2_level1"
+                    android:id="@+id/text2_level3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
@@ -256,7 +255,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
-                android:layout_marginTop="10dp">
+                android:layout_marginTop="5dp">
 
                 <Button
                     android:id="@+id/btn_yes"

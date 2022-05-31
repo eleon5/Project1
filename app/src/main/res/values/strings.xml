@@ -2,5 +2,10 @@
     <string name="app_name">EnglishApp</string>
     <string name="start">Start</string>
     <string name="back">Back</string>
-    <string name="level">Level:</string>
+    <string name="level1">Level 1</string>
+    <string name="level2">Level 2</string>
+    <string name="level3">Level 3</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="textcontinue">Continue</string>
 </resources>

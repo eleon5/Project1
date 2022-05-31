@@ -52,7 +52,7 @@
                     android:layout_weight="1"
                     android:gravity="right"
                     android:padding="10dp"
-                    android:text="@string/level1"
+                    android:text="@string/level2"
                     android:textColor="@color/white"
                     android:textSize="24sp" />
             </LinearLayout>
@@ -134,76 +134,27 @@
                     android:layout_weight="1"
                     android:background="@drawable/style_points" />
 
-                <TextView
-                    android:id="@+id/point11"
-                    android:layout_width="wrap_content"
-                    android:layout_height="10dp"
-                    android:layout_weight="1"
-                    android:background="@drawable/style_points" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/line5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
 
                 <TextView
-                    android:id="@+id/point12"
-                    android:layout_width="wrap_content"
-                    android:layout_height="10dp"
-                    android:layout_weight="1"
-                    android:background="@drawable/style_points" />
-
-                <TextView
-                    android:id="@+id/point13"
-                    android:layout_width="wrap_content"
-                    android:layout_height="10dp"
-                    android:layout_weight="1"
-                    android:background="@drawable/style_points" />
-
-                <TextView
-                    android:id="@+id/point14"
-                    android:layout_width="wrap_content"
-                    android:layout_height="10dp"
-                    android:layout_weight="1"
-                    android:background="@drawable/style_points" />
-
-                <TextView
-                    android:id="@+id/point15"
-                    android:layout_width="wrap_content"
-                    android:layout_height="10dp"
-                    android:layout_weight="1"
-                    android:background="@drawable/style_points" />
-
-                <TextView
-                    android:id="@+id/point16"
-                    android:layout_width="wrap_content"
-                    android:layout_height="10dp"
-                    android:layout_weight="1"
-                    android:background="@drawable/style_points" />
-
-                <TextView
-                    android:id="@+id/point17"
-                    android:layout_width="wrap_content"
-                    android:layout_height="10dp"
-                    android:layout_weight="1"
-                    android:background="@drawable/style_points" />
-
-                <TextView
-                    android:id="@+id/point18"
-                    android:layout_width="wrap_content"
-                    android:layout_height="10dp"
-                    android:layout_weight="1"
-                    android:background="@drawable/style_points" />
-
-                <TextView
-                    android:id="@+id/point19"
-                    android:layout_width="wrap_content"
-                    android:layout_height="10dp"
-                    android:layout_weight="1"
-                    android:background="@drawable/style_points" />
-
-                <TextView
-                    android:id="@+id/point20"
-                    android:layout_width="wrap_content"
-                    android:layout_height="10dp"
-                    android:layout_weight="1"
-                    android:background="@drawable/style_points" />
-
+                    android:id="@+id/text1_level2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="choose the picture"
+                    android:textColor="@color/white"
+                    android:textSize="30sp" />
 
             </LinearLayout>
 
@@ -215,16 +166,17 @@
                 android:layout_marginTop="10dp">
 
                 <TextView
-                    android:id="@+id/text1_level1"
+                    android:id="@+id/text2_level2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="10dp"
                     android:gravity="center"
-                    android:text="check the translation"
+                    android:text="Text"
                     android:textColor="@color/white"
                     android:textSize="30sp" />
+
 
 
             </LinearLayout>
@@ -236,52 +188,34 @@
                 android:layout_marginTop="10dp"
                 android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/text2_level1"
+                <ImageView
+                    android:id="@+id/img_left"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="5dp"
+                    android:layout_height="280dp"
                     android:layout_marginRight="5dp"
-                    android:layout_marginTop="20dp"
-                    android:gravity="center"
-                    android:text="Text"
-                    android:textColor="@color/white"
-                    android:textSize="30sp" />
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/style_img_universal"
+                    android:layout_weight="1"
+                    android:src="@drawable/imgtest" />
+
+                <ImageView
+                    android:id="@+id/img_right"
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    android:layout_marginRight="5dp"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/style_img_universal"
+                    android:layout_weight="1"
+                    android:src="@drawable/imgtest" />
+
+
 
 
             </LinearLayout>
 
-            <LinearLayout
-                android:id="@+id/line5"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:layout_marginTop="10dp">
 
-                <Button
-                    android:id="@+id/btn_yes"
-                    android:layout_width="wrap_content"
-                    android:layout_height="80dp"
-                    android:layout_weight="1"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginTop="45dp"
-                    android:textColor="@color/white"
-                    android:textSize="30sp"
-                    android:background="@drawable/button_stroke_white_press_blue"
-                    android:text="@string/yes" />
 
-                <Button
-                    android:id="@+id/btn_no"
-                    android:layout_width="wrap_content"
-                    android:layout_height="80dp"
-                    android:layout_weight="1"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="45dp"
-                    android:textColor="@color/white"
-                    android:textSize="30sp"
-                    android:background="@drawable/button_stroke_white_press_blue"
-                    android:text="@string/no" />
-            </LinearLayout>
+
 
 
         </LinearLayout>
